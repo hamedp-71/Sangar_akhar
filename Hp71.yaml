@@ -352,8 +352,6 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "🤍 وارپ"
-      - "⛓️عمو زنجیر باف⛓️"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 3"
@@ -388,8 +386,8 @@ proxy-groups:
   - name: "اتصال❤️خودکار"
     type: url-test
     url: "http://www.google.com/generate_204"
-    interval: 30
-    tolerance: 100
+    interval: 60
+    tolerance: 120
     proxies:
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 1"
